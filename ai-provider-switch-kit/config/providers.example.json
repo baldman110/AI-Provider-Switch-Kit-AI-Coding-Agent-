@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "id": "scnet-minimax",
+      "name": "SCNet MiniMax",
+      "protocol": "anthropic_messages",
+      "base_url": "https://api.scnet.cn/api/llm/anthropic",
+      "models": {
+        "main": "MiniMax-M2.5",
+        "sonnet": "MiniMax-M2.5",
+        "haiku": "MiniMax-M2.5",
+        "opus": "MiniMax-M2.5",
+        "thinking": "MiniMax-M2.5"
+      },
+      "api_key": "YOUR_API_KEY_HERE"
+    },
+    {
+      "id": "example-openai-compatible",
+      "name": "Example OpenAI Compatible Provider",
+      "protocol": "openai_chat_completions",
+      "base_url": "https://example.com/v1",
+      "models": {
+        "main": "DeepSeek-R1-Distill-Qwen-7B"
+      },
+      "api_key": "YOUR_API_KEY_HERE"
+    }
+  ]
+}
